@@ -1,0 +1,318 @@
+** Drc report for C:\Projects\S100 Bus Integrated Power\S100_Bus Power.kicad_pcb **
+** Created on 2024-05-14 21:38:55 **
+
+** Found 75 DRC violations **
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(235.5850 mm, 31.0580 mm): Track [GND] on Copper, length 25.8324 mm
+    @(212.0900 mm, 33.6550 mm): PTH pad 5 [<no net>] of J3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(138.6332 mm, 119.3800 mm): Track [Net-(C3-Pad1)] on Component, length 1.6452 mm
+    @(138.4300 mm, 120.6500 mm): PTH pad 1 [/Vacc] of R5
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(131.8209 mm, 125.9891 mm): Track [Net-(Q1-B)] on Component, length 8.8900 mm
+    @(124.4600 mm, 127.0000 mm): PTH pad 1 [/B+8V] of Q1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(161.5465 mm, 138.1735 mm): Track [/A12] on Component, length 4.5136 mm
+    @(162.5600 mm, 139.7000 mm): PTH pad 5 [/A7] of RR8
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(143.2509 mm, 138.1709 mm): Track [/A5] on Component, length 10.1117 mm
+    @(142.2400 mm, 139.7000 mm): PTH pad 10 [/A0] of RR6
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(191.7700 mm, 140.4493 mm): Track [/DI2] on Component, length 11.6097 mm
+    @(184.1500 mm, 152.7810 mm): Pad 42 [/DI3] of P1 on Component
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(183.5607 mm, 148.6586 mm): Track [/DI2] on Component, length 2.5857 mm
+    @(184.1500 mm, 152.7810 mm): Pad 42 [/DI3] of P1 on Component
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(194.0865 mm, 138.6535 mm): Track [/DI3] on Component, length 1.4986 mm
+    @(193.0400 mm, 139.7000 mm): PTH pad 4 [/DI4] of RR10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(186.6214 mm, 148.6586 mm): Track [/DI5] on Copper, length 12.6693 mm
+    @(187.3250 mm, 152.7810 mm): Pad 93 [/DI6] of P1 on Copper
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(184.1500 mm, 148.6586 mm): Track [/DI5] on Copper, length 2.4714 mm
+    @(187.3250 mm, 152.7810 mm): Pad 93 [/DI6] of P1 on Copper
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(196.8500 mm, 139.8702 mm): Track [/DI7] on Component, length 12.4287 mm
+    @(195.5800 mm, 139.7000 mm): PTH pad 5 [/DI5] of RR10
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(166.1160 mm, 142.0139 mm): Track [/DO1] on Component, length 3.3299 mm
+    @(165.1000 mm, 139.7000 mm): PTH pad 6 [/A8] of RR8
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(174.6250 mm, 148.6586 mm): Track [/DO3] on Copper, length 4.3764 mm
+    @(177.8000 mm, 152.7810 mm): Pad 90 [/DO7] of P1 on Copper
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(174.2084 mm, 138.2116 mm): Track [/DO4] on Component, length 1.7145 mm
+    @(175.2600 mm, 139.7000 mm): PTH pad 10 [/DO2] of RR8
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(186.4309 mm, 140.6576 mm): Track [/DO5] on Component, length 1.9685 mm
+    @(185.4200 mm, 139.7000 mm): PTH pad 1 [/Vacc] of RR10
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(189.0065 mm, 138.6535 mm): Track [/DO6] on Component, length 2.0041 mm
+    @(187.9600 mm, 139.7000 mm): PTH pad 2 [/DO3] of RR10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(187.5053 mm, 141.1072 mm): Track [/DO7] on Copper, length 13.7254 mm
+    @(180.9750 mm, 152.7810 mm): Pad 91 [/DI4] of P1 on Copper
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(138.6662 mm, 138.1938 mm): Track [/PINTE] on Component, length 9.4310 mm
+    @(139.7000 mm, 139.7000 mm): PTH pad 9 [/PDBIN] of RR6
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(136.1135 mm, 138.2065 mm): Track [/PWAIT] on Component, length 10.0406 mm
+    @(137.1600 mm, 139.7000 mm): PTH pad 8 [//PWR] of RR6
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(209.4357 mm, 139.9870 mm): Track [/SHLTA] on Component, length 8.8186 mm
+    @(208.2800 mm, 139.7000 mm): PTH pad 10 [//SWO] of RR10
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(190.5914 mm, 148.6586 mm): Track [/SM1] on Component, length 12.1629 mm
+    @(198.1200 mm, 139.7000 mm): PTH pad 6 [/DI6] of RR10
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(120.9065 mm, 138.1735 mm): Track [/SS] on Component, length 7.0536 mm
+    @(121.9200 mm, 139.7000 mm): PTH pad 2 [/RUN] of RR6
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(209.3544 mm, 140.0556 mm): Track [/SSTACK] on Copper, length 8.7037 mm
+    @(208.2800 mm, 139.7000 mm): PTH pad 10 [//SWO] of RR10
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(170.1241 mm, 135.9459 mm): Track [/Vacc] on Component, length 16.3347 mm
+    @(157.4800 mm, 137.1600 mm): PTH pad 3 [/A3] of RR7
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(170.1241 mm, 135.9459 mm): Track [/Vacc] on Component, length 16.3347 mm
+    @(160.0200 mm, 137.1600 mm): PTH pad 4 [/A15] of RR7
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(170.1241 mm, 135.9459 mm): Track [/Vacc] on Component, length 16.3347 mm
+    @(154.9400 mm, 137.1600 mm): PTH pad 2 [/A4] of RR7
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(170.1241 mm, 135.9459 mm): Track [/Vacc] on Component, length 16.3347 mm
+    @(165.1000 mm, 137.1600 mm): PTH pad 6 [/A9] of RR7
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(170.1241 mm, 135.9459 mm): Track [/Vacc] on Component, length 16.3347 mm
+    @(167.6400 mm, 137.1600 mm): PTH pad 7 [/DO1] of RR7
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(170.1241 mm, 135.9459 mm): Track [/Vacc] on Component, length 16.3347 mm
+    @(170.1800 mm, 137.1600 mm): PTH pad 8 [/DO0] of RR7
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(170.1241 mm, 135.9459 mm): Track [/Vacc] on Component, length 16.3347 mm
+    @(162.5600 mm, 137.1600 mm): PTH pad 5 [/A12] of RR7
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(113.0859 mm, 135.9459 mm): Track [/Vacc] on Component, length 25.3365 mm
+    @(88.9000 mm, 137.1600 mm): PTH pad 2 [/pin_12] of RR3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(113.0859 mm, 135.9459 mm): Track [/Vacc] on Component, length 25.3365 mm
+    @(91.4400 mm, 137.1600 mm): PTH pad 3 [/pin_13] of RR3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(113.0859 mm, 135.9459 mm): Track [/Vacc] on Component, length 25.3365 mm
+    @(93.9800 mm, 137.1600 mm): PTH pad 4 [/pin_14] of RR3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(113.0859 mm, 135.9459 mm): Track [/Vacc] on Component, length 25.3365 mm
+    @(99.0600 mm, 137.1600 mm): PTH pad 6 [/pin_16] of RR3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(113.0859 mm, 135.9459 mm): Track [/Vacc] on Component, length 25.3365 mm
+    @(101.6000 mm, 137.1600 mm): PTH pad 7 [/pin_17] of RR3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(113.0859 mm, 135.9459 mm): Track [/Vacc] on Component, length 25.3365 mm
+    @(106.6800 mm, 137.1600 mm): PTH pad 9 [//CCDSB] of RR3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(113.0859 mm, 135.9459 mm): Track [/Vacc] on Component, length 25.3365 mm
+    @(109.2200 mm, 137.1600 mm): PTH pad 10 [/0_V1] of RR3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(113.0859 mm, 135.9459 mm): Track [/Vacc] on Component, length 25.3365 mm
+    @(96.5200 mm, 137.1600 mm): PTH pad 5 [/pin_15] of RR3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(113.0859 mm, 135.9459 mm): Track [/Vacc] on Component, length 25.3365 mm
+    @(104.1400 mm, 137.1600 mm): PTH pad 8 [//STADSB] of RR3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(177.8000 mm, 128.2700 mm): Track [/Vacc] on Component, length 10.8553 mm
+    @(170.1800 mm, 137.1600 mm): PTH pad 8 [/DO0] of RR7
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(63.4441 mm, 135.9459 mm): Track [/Vacc] on Copper, length 8.7147 mm
+    @(60.9600 mm, 137.1600 mm): PTH pad 4 [/VI_1] of RR1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(63.4441 mm, 135.9459 mm): Track [/Vacc] on Copper, length 8.7147 mm
+    @(63.5000 mm, 137.1600 mm): PTH pad 5 [/VI_2] of RR1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(63.4441 mm, 135.9459 mm): Track [/Vacc] on Copper, length 8.7147 mm
+    @(58.4200 mm, 137.1600 mm): PTH pad 3 [/VI_0] of RR1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(63.4441 mm, 135.9459 mm): Track [/Vacc] on Copper, length 8.7147 mm
+    @(55.8800 mm, 137.1600 mm): PTH pad 2 [/XRDY] of RR1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(123.1367 mm, 120.7033 mm): Track [/Vacc] on Copper, length 11.4859 mm
+    @(121.9200 mm, 127.0000 mm): PTH pad 2 [Net-(Q1-B)] of Q1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(123.1367 mm, 120.7033 mm): Track [/Vacc] on Copper, length 11.4859 mm
+    @(121.9200 mm, 129.5400 mm): PTH pad 3 [Net-(Q1-C)] of Q1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(71.1200 mm, 128.2700 mm): Track [/Vacc] on Copper, length 10.8553 mm
+    @(63.5000 mm, 137.1600 mm): PTH pad 5 [/VI_2] of RR1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(56.8935 mm, 138.1735 mm): Track [/XRDY] on Component, length 3.7998 mm
+    @(55.8800 mm, 139.7000 mm): PTH pad 2 [/0_V3] of RR2
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(89.9338 mm, 138.1938 mm): Track [/pin_12] on Component, length 9.4310 mm
+    @(88.9000 mm, 139.7000 mm): PTH pad 2 [/pin_62] of RR4
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(92.4865 mm, 138.2065 mm): Track [/pin_13] on Component, length 10.0406 mm
+    @(91.4400 mm, 139.7000 mm): PTH pad 3 [/pin_63] of RR4
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(147.2641 mm, 124.5159 mm): Track [GND] on Component, length 3.6347 mm
+    @(146.0500 mm, 127.0000 mm): PTH pad 2 [Net-(Q2-B)] of Q2
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(96.6572 mm, 126.8628 mm): Track [GND] on Component, length 1.9900 mm
+    @(97.7900 mm, 128.2700 mm): PTH pad VO [/VCC] of IC1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(111.6228 mm, 126.8628 mm): Track [GND] on Component, length 14.9657 mm
+    @(97.7900 mm, 128.2700 mm): PTH pad VO [/VCC] of IC1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(81.2902 mm, 139.7102 mm): Track [GND] on Copper, length 2.5400 mm
+    @(82.5500 mm, 138.4300 mm): PTH pad 1 [/Vacc] of C5
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(85.1662 mm, 138.3741 mm): Track [GND] on Copper, length 2.1057 mm
+    @(86.3600 mm, 137.1600 mm): PTH pad 1 [/Vacc] of RR3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(87.2719 mm, 138.3741 mm): Track [GND] on Copper, length 0.5065 mm
+    @(86.3600 mm, 137.1600 mm): PTH pad 1 [/Vacc] of RR3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(152.1435 mm, 119.1235 mm): Track [Net-(Q2-C)] on Copper, length 4.3231 mm
+    @(151.1300 mm, 120.6500 mm): PTH pad 2 [GND] of R7
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(68.5800 mm, 128.2700 mm): Track [/B+8V] on Component, length 3.5921 mm
+    @(71.1200 mm, 128.2700 mm): PTH pad 1 [/Vacc] of Q3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(132.7150 mm, 64.8400 mm): Track [Net-(IC8-Pin_1)] on Component, length 12.1350 mm
+    @(127.3810 mm, 67.1830 mm): PTH pad 3 [GND] of J6
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(64.1350 mm, 116.2050 mm): Line on Component
+    @(68.5800 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(73.0250 mm, 116.2050 mm): Line on Component
+    @(68.5800 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(64.1350 mm, 107.3150 mm): Line on Component
+    @(68.5800 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(73.0250 mm, 107.3150 mm): Line on Component
+    @(68.5800 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(64.1350 mm, 116.2050 mm): Line on Copper
+    @(68.5800 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(73.0250 mm, 116.2050 mm): Line on Copper
+    @(68.5800 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(64.1350 mm, 107.3150 mm): Line on Copper
+    @(68.5800 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(73.0250 mm, 107.3150 mm): Line on Copper
+    @(68.5800 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(170.8150 mm, 116.2050 mm): Line on Component
+    @(175.2600 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q4
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(179.7050 mm, 116.2050 mm): Line on Component
+    @(175.2600 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q4
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(170.8150 mm, 107.3150 mm): Line on Component
+    @(175.2600 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q4
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(179.7050 mm, 107.3150 mm): Line on Component
+    @(175.2600 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(170.8150 mm, 116.2050 mm): Line on Copper
+    @(175.2600 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(179.7050 mm, 116.2050 mm): Line on Copper
+    @(175.2600 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(170.8150 mm, 107.3150 mm): Line on Copper
+    @(175.2600 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: error
+    @(179.7050 mm, 107.3150 mm): Line on Copper
+    @(175.2600 mm, 111.7600 mm): PTH pad 4 [<no net>] of Q4
+
+** Found 2 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(210.0580 mm, 152.7810 mm): Pad 50 [GND] of P1 on Component
+    @(210.0580 mm, 152.7810 mm): Pad 100 [GND] of P1 on Copper
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(43.1800 mm, 43.6880 mm): Track [GND] on Component, length 14.4780 mm
+    @(19.0500 mm, 29.2100 mm): PTH pad 1 [GND] of P34
+
+** Found 0 Footprint errors **
+
+** End of Report **
