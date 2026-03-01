@@ -30802,6 +30802,12 @@
 		(uuid "32e0c8c1-e6a7-489c-8e98-df4cc0389c6e")
 	)
 	(junction
+		(at 796.29 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33549c05-1849-45b2-9106-c500acba3485")
+	)
+	(junction
 		(at 535.94 326.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -39908,6 +39914,16 @@
 	)
 	(wire
 		(pts
+			(xy 796.29 140.97) (xy 800.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa231ac-7dd0-4739-a909-1d8f811847e1")
+	)
+	(wire
+		(pts
 			(xy 763.27 391.16) (xy 763.27 388.62)
 		)
 		(stroke
@@ -41236,6 +41252,16 @@
 		)
 		(uuid "51546911-bce9-4c05-84c6-48dfa3245e7e")
 	)
+	(wire
+		(pts
+			(xy 796.29 140.97) (xy 796.29 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518a6f30-3d8d-42b1-b166-2ecc1555ffd4")
+	)
 	(bus
 		(pts
 			(xy 383.54 30.48) (xy 431.8 30.48)
@@ -42225,6 +42251,16 @@
 			(type default)
 		)
 		(uuid "5dacdc22-69d1-4240-96ed-737139c18f15")
+	)
+	(wire
+		(pts
+			(xy 796.29 157.48) (xy 787.4 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dae4a98-d8e7-47d6-bc78-a9282a57c910")
 	)
 	(wire
 		(pts
@@ -46388,7 +46424,7 @@
 	)
 	(wire
 		(pts
-			(xy 791.21 140.97) (xy 800.1 140.97)
+			(xy 791.21 140.97) (xy 796.29 140.97)
 		)
 		(stroke
 			(width 0)
@@ -50215,6 +50251,16 @@
 			(type default)
 		)
 		(uuid "c729d5f0-2aee-4da3-b02a-b3f59399f970")
+	)
+	(wire
+		(pts
+			(xy 795.02 19.05) (xy 800.1 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c733b514-1afa-4184-b2b4-8081ca2ff02e")
 	)
 	(wire
 		(pts
@@ -55326,6 +55372,16 @@
 		)
 		(uuid "39b01c03-c7be-4e4e-a609-664496506b87")
 	)
+	(label "+16V"
+		(at 795.02 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39e2b483-75ea-497e-9b94-2c794e6ded8a")
+	)
 	(label "DataBus2"
 		(at 436.88 43.18 90)
 		(effects
@@ -56196,6 +56252,16 @@
 		)
 		(uuid "6d84ce72-c10d-4bd1-9166-d224e29664ab")
 	)
+	(label "-16V"
+		(at 767.08 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dd7c6ff-445b-4553-a17b-48ad023a03b2")
+	)
 	(label "DataBus7"
 		(at 252.73 292.1 0)
 		(effects
@@ -56625,6 +56691,16 @@
 			(justify left bottom)
 		)
 		(uuid "8d1300f5-a534-4314-b66e-fcc2d6023abf")
+	)
+	(label "+8V"
+		(at 784.86 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d719882-b1e2-4e54-a413-c739756c2b0d")
 	)
 	(label "AddressBus6"
 		(at 326.39 92.71 0)
@@ -80605,6 +80681,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 787.4 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5548587d-4dcc-4ef1-a10a-631b8699091f")
+		(property "Reference" "TP14"
+			(at 789.94 159.5119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 789.94 162.0519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 782.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 782.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 787.4 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43db6e86-1b03-463d-b1bf-09367f005227")
+		)
+		(instances
+			(project "W2I-S100"
+				(path "/461ad1b3-df41-4c8f-89ba-1a25d4188f9a"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 166.37 368.3 270)
 		(unit 1)
@@ -90574,7 +90717,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 800.1 19.05 90)
+		(at 795.02 19.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -90582,7 +90725,7 @@
 		(dnp no)
 		(uuid "7e1deff1-cafb-441f-98f7-b28125001e6b")
 		(property "Reference" "TP12"
-			(at 792.734 18.796 90)
+			(at 787.654 18.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90590,7 +90733,7 @@
 			)
 		)
 		(property "Value" "+16V"
-			(at 792.734 21.336 90)
+			(at 787.654 21.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90598,7 +90741,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 800.1 13.97 0)
+			(at 795.02 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90607,7 +90750,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 800.1 13.97 0)
+			(at 795.02 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90616,7 +90759,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 800.1 19.05 0)
+			(at 795.02 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
