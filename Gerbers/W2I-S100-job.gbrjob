@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.6"
     },
-    "CreationDate": "2026-03-01T15:32:39-06:00"
+    "CreationDate": "2026-03-04T20:30:08-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -61,6 +61,16 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "W2I-S100-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "W2I-S100-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "W2I-S100-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
@@ -69,6 +79,16 @@
       "Path": "W2I-S100-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "W2I-S100-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "W2I-S100-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
     },
     {
       "Path": "W2I-S100-Edge_Cuts.gm1",

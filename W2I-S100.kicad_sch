@@ -59713,7 +59713,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C686657"
+		(property "LCSC Part" "C352961"
 			(at 504.19 467.36 0)
 			(effects
 				(font
@@ -68227,7 +68227,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C686657"
+		(property "LCSC Part" "C352961"
 			(at 388.62 474.98 0)
 			(effects
 				(font
@@ -69741,7 +69741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 392.43 144.78 0)
 			(effects
 				(font
@@ -69777,7 +69777,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5968"
+		(property "LCSC Part" "C6769"
 			(at 392.43 144.78 0)
 			(effects
 				(font
@@ -73963,7 +73963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 377.19 127 0)
 			(effects
 				(font
@@ -73999,7 +73999,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5968"
+		(property "LCSC Part" "C6769"
 			(at 377.19 127 0)
 			(effects
 				(font
@@ -75169,7 +75169,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C686657"
+		(property "LCSC Part" "C352961"
 			(at 276.86 38.1 0)
 			(effects
 				(font
@@ -77549,7 +77549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 558.8 328.93 0)
 			(effects
 				(font
@@ -77585,7 +77585,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C547595"
+		(property "LCSC Part" "C6781"
 			(at 558.8 328.93 0)
 			(effects
 				(font
@@ -78116,7 +78116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 292.1 187.96 0)
 			(effects
 				(font
@@ -78152,7 +78152,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5968"
+		(property "LCSC Part" "C6769"
 			(at 292.1 187.96 0)
 			(effects
 				(font
@@ -79206,7 +79206,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C686657"
+		(property "LCSC Part" "C352961"
 			(at 411.48 127 0)
 			(effects
 				(font
@@ -80389,7 +80389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 646.43 467.36 0)
 			(effects
 				(font
@@ -80425,7 +80425,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C547595"
+		(property "LCSC Part" "C6781"
 			(at 646.43 467.36 0)
 			(effects
 				(font
@@ -86593,7 +86593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 392.43 127 0)
 			(effects
 				(font
@@ -86629,7 +86629,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5968"
+		(property "LCSC Part" "C6769"
 			(at 392.43 127 0)
 			(effects
 				(font
@@ -87426,7 +87426,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C456131"
+		(property "LCSC Part" "C352828"
 			(at 381 55.88 90)
 			(effects
 				(font
@@ -87714,7 +87714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 521.97 311.15 0)
 			(effects
 				(font
@@ -87750,7 +87750,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C547595"
+		(property "LCSC Part" "C6781"
 			(at 521.97 311.15 0)
 			(effects
 				(font
@@ -96529,7 +96529,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C686657"
+		(property "LCSC Part" "C352961"
 			(at 524.51 467.36 0)
 			(effects
 				(font
@@ -98139,7 +98139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 485.14 220.98 0)
 			(effects
 				(font
@@ -98175,7 +98175,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5968"
+		(property "LCSC Part" "C6769"
 			(at 485.14 220.98 90)
 			(effects
 				(font
@@ -98990,7 +98990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 312.42 187.96 0)
 			(effects
 				(font
@@ -99026,7 +99026,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5968"
+		(property "LCSC Part" "C6769"
 			(at 312.42 187.96 0)
 			(effects
 				(font
@@ -103575,7 +103575,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C686657"
+		(property "LCSC Part" "C352961"
 			(at 541.02 276.86 0)
 			(effects
 				(font
@@ -104508,7 +104508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 523.24 328.93 0)
 			(effects
 				(font
@@ -104544,7 +104544,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C547595"
+		(property "LCSC Part" "C6781"
 			(at 523.24 328.93 0)
 			(effects
 				(font
@@ -105150,7 +105150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 576.58 276.86 0)
 			(effects
 				(font
@@ -105186,7 +105186,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C547595"
+		(property "LCSC Part" "C6781"
 			(at 576.58 276.86 0)
 			(effects
 				(font
@@ -108617,7 +108617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 687.07 467.36 0)
 			(effects
 				(font
@@ -108653,7 +108653,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5968"
+		(property "LCSC Part" "C6769"
 			(at 687.07 467.36 0)
 			(effects
 				(font
@@ -109357,7 +109357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
 			(at 449.58 63.5 0)
 			(effects
 				(font
@@ -109393,7 +109393,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2908835"
+		(property "LCSC Part" "C547397"
 			(at 441.96 86.36 90)
 			(effects
 				(font
