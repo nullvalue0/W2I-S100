@@ -16710,25 +16710,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BZ"
-				(at 3.81 1.27 0)
+			(property "Reference" "BZ1"
+				(at -4.318 6.096 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Value" "Buzzer"
-				(at 3.81 -1.27 0)
+				(at -4.318 0.508 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 				(at -0.635 2.54 90)
 				(effects
 					(font
@@ -16746,8 +16746,71 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Buzzer, polarized"
+			(property "Description" "Murata PKHPS0013E4000-A2"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16774,30 +16837,6 @@
 				)
 			)
 			(symbol "Buzzer_0_1"
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
 					(start 0 3.175)
 					(mid 3.1612 0)
@@ -30520,6 +30559,16 @@
 		)
 		(uuid "f26207f2-c568-4d5b-8f2e-6ee1d5a957b7")
 	)
+	(text "(min 180R)"
+		(exclude_from_sim no)
+		(at 547.116 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f373f80a-08b6-4924-9767-73cbe855ffaf")
+	)
 	(junction
 		(at 494.03 233.68)
 		(diameter 0)
@@ -30663,6 +30712,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15227af3-c977-4e14-baa4-0017ee2885ee")
+	)
+	(junction
+		(at 176.53 299.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "156269ff-25a3-42e6-af27-b4c09c909a1f")
 	)
 	(junction
 		(at 784.86 64.77)
@@ -32381,12 +32436,6 @@
 		(uuid "de5b4d09-012f-4a95-a943-de9af0dce8eb")
 	)
 	(junction
-		(at 180.34 299.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de8e764c-32e5-428a-86d4-7c19f5492d51")
-	)
-	(junction
 		(at 457.2 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -32663,10 +32712,6 @@
 	(no_connect
 		(at 518.16 224.79)
 		(uuid "5f050d6a-80bf-49c7-87d2-10c834c2b432")
-	)
-	(no_connect
-		(at 184.15 297.18)
-		(uuid "6b682ab1-ca0c-469d-9299-abc08be39785")
 	)
 	(no_connect
 		(at 129.54 102.87)
@@ -36607,6 +36652,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 297.18) (xy 184.15 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fae6c1-4644-44c5-b132-ab28facb62b6")
+	)
+	(wire
+		(pts
 			(xy 496.57 134.62) (xy 501.65 134.62)
 		)
 		(stroke
@@ -38884,16 +38939,6 @@
 			(type default)
 		)
 		(uuid "2fb5408b-3a17-4ab9-9b4a-3b4ad9449d8f")
-	)
-	(wire
-		(pts
-			(xy 180.34 299.72) (xy 184.15 299.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fbf44e3-d812-41e4-adfc-3f9792e4f87c")
 	)
 	(wire
 		(pts
@@ -41647,7 +41692,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 299.72) (xy 180.34 299.72)
+			(xy 170.18 299.72) (xy 176.53 299.72)
 		)
 		(stroke
 			(width 0)
@@ -42684,6 +42729,16 @@
 			(type default)
 		)
 		(uuid "610f56c9-f197-44b6-97c9-b3dfbadb8c71")
+	)
+	(wire
+		(pts
+			(xy 176.53 299.72) (xy 184.15 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6112e110-1593-4044-a352-1f6882638238")
 	)
 	(bus
 		(pts
@@ -45144,6 +45199,16 @@
 			(type default)
 		)
 		(uuid "81810dff-5ce2-4efc-b89a-2deaaa4f2ea6")
+	)
+	(wire
+		(pts
+			(xy 182.88 264.16) (xy 182.88 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818d1a04-7f41-44b8-8c57-62840d635132")
 	)
 	(wire
 		(pts
@@ -51047,7 +51112,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 307.34) (xy 180.34 299.72)
+			(xy 176.53 307.34) (xy 176.53 299.72)
 		)
 		(stroke
 			(width 0)
@@ -54926,7 +54991,7 @@
 		(uuid "0e1336d8-1fce-4d4e-ae4b-34f1b2a02273")
 	)
 	(label "+FAULT"
-		(at 180.34 307.34 90)
+		(at 176.53 307.34 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60450,7 +60515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Z80CPU"
+		(property "Value" "Z84C0020PEC"
 			(at 310.7533 71.12 0)
 			(effects
 				(font
@@ -78469,6 +78534,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49d8d909-06fd-480d-a3eb-5fc9f17c4b63")
+		(property "Reference" "TP15"
+			(at 185.42 259.5879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U8-16"
+			(at 185.42 262.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 187.96 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6c5aab8-d35f-4e39-b8fa-a1d9f09016f0")
+		)
+		(instances
+			(project "W2I-S100"
+				(path "/461ad1b3-df41-4c8f-89ba-1a25d4188f9a"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x12_Counter_Clockwise")
 		(at 115.57 87.63 0)
 		(unit 1)
@@ -86541,7 +86673,7 @@
 				)
 			)
 		)
-		(property "Value" "761-5-R220/330"
+		(property "Value" "4116R-3-221/331"
 			(at 84.582 450.85 90)
 			(effects
 				(font
@@ -88986,7 +89118,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "76d4ba58-dc09-4ab5-9ed6-22f5561af70f")
 		(property "Reference" "R10"
 			(at 560.07 148.5899 0)
@@ -88997,7 +89128,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "330"
 			(at 560.07 151.1299 0)
 			(effects
 				(font
@@ -114099,7 +114230,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Buzzer"
+		(property "Value" "PKHPS0013E4000-A2"
 			(at 564.642 159.258 90)
 			(effects
 				(font
@@ -114126,7 +114257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buzzer, polarized"
+		(property "Description" ""
 			(at 565.15 154.94 0)
 			(effects
 				(font
